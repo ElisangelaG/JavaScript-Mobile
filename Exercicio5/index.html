@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Informções da Universidade Ex5 </h1>
+
+    <form>
+        <div><label>Nome da Universidade :</label> <input type="text" id="nome"/></div>
+        <br>
+        <div><label>Data da Função :</label> <input type="date" id="data"></div>
+        <br>
+        <div><label>Quantidade de Campus:</label> <input type="number" id="campus"/></div>
+        <br>
+        <div><label>Quantidade de Alunos(a):</label> <input type="number" id="aluno"></div>  
+        <br>
+        <div><label>Quantidade de Professores:</label> <input type="number" id="professor"></div>
+        <br>
+        <div><label>Quantidade de curso:</label> <input type="number" id="curso"/></div>
+        <br>
+        <div><label>Melhor curso:</label> <input type="text" id="curso"></div>  
+        <br>       
+    </form>    
+    <div><button id="salvarInf" onClick="salvarInf()">Salvar</button></div>
+</body>
+</html>
+
+
+<!--Você deverá uma página criando um formulário para armazenar os dados de uma
+Universidade. Os dados serão nome, data de fundação, quantidade de campus,
+quantidade de alunos, quantidade de professores, quantidade cursos, melhor curso
+no MEC. Estes dados deverão ser armazenados no localStorage mas utilizando o
+formato de objeto. Os dados deverão ser recarregados na página e exibidos no
+console no formato objeto. Dica * Utilizar JSON Parse e JSON Stringify
